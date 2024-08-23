@@ -38,7 +38,7 @@ function sortear() {
     embaralhar(amigos);
 
     // Avisa o usuário se houver menos que 4 amigos participantes
-    if(amigos.length < 4){
+    if (amigos.length < 4) {
         alert('Adicione ao menos 4 amigos.');
         return;
     }
